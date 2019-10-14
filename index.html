@@ -20,18 +20,20 @@ body {
 	padding-bottom:50px;
 }
 #header {
-	background-color:#333;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#414141', endColorstr='#111');
-	background: -webkit-gradient(linear, left top, left bottom, from(#414141), to(#111));
-	background: -moz-linear-gradient(top,  #414141,  #111);
-	border: 0;
-	border-top: solid #707070 1px;
-	color:#FFF;
-	padding:10px 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 36px;
+    line-height: 76px;
+    margin-top: 36px;
+    padding-bottom: 35px;
 }
 #header h1 {
 	margin:0;
-	font-size:36px;
+	font-size:88px;
 	font-family: 'Mansalva', Arial, sans-serif;
 }
 #main {
@@ -41,7 +43,7 @@ body {
 }
 #main h2 {
 	text-align:center;
-	font-size:50px;
+	font-size:36px;
 	text-shadow:1px 1px 5px rgba(0, 0, 0, 0.2);
 	margin-top:10px;
 }
@@ -70,6 +72,13 @@ body {
 .gallery li a img {
 	border:0 !important;
 }
+			.gallery.past li a {
+				height:100px;
+			}
+			.gallery.past li a img {
+				width:100px;
+				height:100px;
+			}
 .social {
 	list-style:none;
 	margin:0;
@@ -159,7 +168,7 @@ body {
 			</div>
 			<h2>Previous Projects</h2>
 			<div class="section">
-				<ul class="gallery">
+				<ul class="gallery past">
 					<li><a href="#"><img src="/box_logos/devonportlive.png" /></a></li>
 					<li><a href="#"><img src="/box_logos/boardroom.png" /></a></li>
 					<li><a href="#"><img src="/box_logos/nh.png" /></a></li>
@@ -182,9 +191,12 @@ body {
 			<h2>Keep in touch</h2>
 			<div class="section">
 				<ul class="social">
-					<li class="fb"><a href="https://www.facebook.com/EdmundGentle" target="_blank">Facebook</a></li>
-					<li class="gh"><a href="https://github.com/edmundgentle" target="_blank">GitHub</a></li>
-					<li class="li"><a href="http://www.linkedin.com/profile/view?id=69943843" target="_blank">LinkedIn</a></li>
+					<li><a href="https://www.facebook.com/EdmundGentle" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" />
+ Facebook</a></li>
+					<li><a href="https://github.com/edmundgentle" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+ GitHub</a></li>
+					<li><a href="http://www.linkedin.com/profile/view?id=69943843" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" />
+ LinkedIn</a></li>
 				</ul>
 			</div>
 		</div>
