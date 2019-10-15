@@ -26,7 +26,7 @@ body {
     text-align: center;
     color: #333;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 36px;
+    margin-bottom: 16px;
     line-height: 76px;
     margin-top: 36px;
     padding-bottom: 35px;
@@ -51,6 +51,7 @@ body {
 	list-style:none;
 	margin:0;
 	padding:0;
+	text-align:center;
 }
 .gallery li {
 	display:inline;
@@ -98,29 +99,18 @@ body {
 	border-radius:2px;
 	background-repeat:no-repeat;
 	background-position:15px;
-	font-family:Tahoma;
 	font-size:12px;
+	position: relative;
+    padding-left: 50px;
+}
+.social li a img {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 24px;
 }
 .social li a:hover {
 	background-color:#eee;
-}
-.social li.fb a {
-	background-image:url(/images/fb.png);
-}
-.social li.tw a {
-	background-image:url(/images/tw.png);
-}
-.social li.gp a {
-	background-image:url(/images/gp.png);
-}
-.social li.ig a {
-	background-image:url(/images/ig.png);
-}
-.social li.li a {
-	background-image:url(/images/li.png);
-}
-.social li.gh a {
-	background-image:url(/images/gh.png);
 }
 .snippets_list {
 	list-style:none;
@@ -152,6 +142,19 @@ body {
 			<h1>Edmund Gentle</h1>
 		</div>
 		<div id="main">
+			<div class="section">
+				<p style="
+    text-align: center;
+">Software developer based in Plymouth, UK</p>
+				<ul class="social">
+					<li><a href="https://www.facebook.com/EdmundGentle" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" />
+ Facebook</a></li>
+					<li><a href="https://github.com/edmundgentle" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+ GitHub</a></li>
+					<li><a href="http://www.linkedin.com/profile/view?id=69943843" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" />
+ LinkedIn</a></li>
+				</ul>
+			</div>
 			<h2>Projects</h2>
 			<div class="section">
 				<ul class="gallery">
@@ -186,17 +189,6 @@ body {
                     <li><a href="#"><img src="/box_logos/trufflehog.jpg" /></a></li>
                     <li><a href="#"><img src="/box_logos/en.png" /></a></li>
                 </ul>
-			</div>
-			<h2>Keep in touch</h2>
-			<div class="section">
-				<ul class="social">
-					<li><a href="https://www.facebook.com/EdmundGentle" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg" />
- Facebook</a></li>
-					<li><a href="https://github.com/edmundgentle" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
- GitHub</a></li>
-					<li><a href="http://www.linkedin.com/profile/view?id=69943843" target="_blank"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" />
- LinkedIn</a></li>
-				</ul>
 			</div>
 		</div>
 		<script type="text/javascript">
